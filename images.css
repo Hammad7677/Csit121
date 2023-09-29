@@ -1,0 +1,13 @@
+/* Apply styles to the images within the links */
+a img {
+    width: 300px; /* Set the width of the images */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #333; /* Add a border around the images */
+    margin: 10px; /* Add margin around the images */
+    transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+/* Apply a hover effect to the images */
+a img:hover {
+    transform: scale(1.1); /* Scale the image slightly on hover */
+}
