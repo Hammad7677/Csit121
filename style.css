@@ -1,0 +1,23 @@
+/* Apply styles to the body element */
+body {
+    background-color: #f2f2f2; /* Background color */
+    color: #333; /* Text color */
+    font-family: Arial, sans-serif; /* Font family */
+    margin: 0; /* Remove default margin */
+    text-transform: capitalize; /* Capitalize text */
+}
+
+/* Apply styles to headings */
+h1, h2, h3 {
+    color: #ff6600; /* Heading text color */
+}
+
+/* Apply styles to paragraphs */
+p {
+    margin: 10px 0; /* Add margin to paragraphs */
+}
+
+/* Apply styles to list items */
+li {
+    list-style-type: disc; /* Use disc bullets for list items */
+}
