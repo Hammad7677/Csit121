@@ -21,3 +21,83 @@ p {
 li {
     list-style-type: disc; /* Use disc bullets for list items */
 }
+
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+}
+
+/* Style the headings */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Create a flex container for ingredients and instructions */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Style the unordered list for ingredients */
+.ingredients ul {
+    list-style: square;
+}
+
+/* Style the ordered list for instructions */
+.instructions ol {
+    list-style: decimal;
+    margin-left: 20px;
+}
+
+/* Style paragraphs */
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style hyperlinks */
+a:link {
+    color: #0078d4;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #4a90e2;
+}
+
+a:hover {
+    text-decoration: underline;
+}
