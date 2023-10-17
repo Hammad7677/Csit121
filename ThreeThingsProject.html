@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My 3 Things</title>
+    <link rel="stylesheet" href="THREETHINGSHAM.css">
+</head>
+<body>
+    <header>
+        <h1>My 3 Things</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a onclick="showThing(1)">Thing 1</a></li>
+            <li><a onclick="showThing(2)">Thing 2</a></li>
+            <li><a onclick="showThing(3)">Thing 3</a></li>
+        </ul>
+    </nav>
+    <section id="thing1">
+        <h2>Thing 1 - Soccer</h2>
+        <img src="https://t3.ftcdn.net/jpg/03/55/28/80/360_F_355288042_An4jhyVFELBAY05m97yMQYDTDpNKeeJf.jpg" alt="Soccer">
+        <p>This "Thing" is all about the excitement and enjoyment of playing soccer. Soccer is a team sport that brings people together to compete, pass, and score goals. It's a great way to stay active, connect with friends and teammates, and experience the thrill of the game.</p>
+    </section>
+    <section id="thing2">
+        <h2>Thing 2 - Painting</h2>
+        <img src="https://stepbysteppainting.net/wp-content/uploads/2023/07/Joshua-Tree.jpg" alt="Painting">
+        <p>"Thing 2" is an artistic pursuit. It involves using various mediums and techniques to create visual art. Whether it's with brushes, canvases, or digital tools, painting allows you to express your creativity, emotions, and imagination through the use of color, form, and texture.</p>
+    </section>
+    <section id="thing3">
+        <h2>Thing 3 - Cooking</h2>
+        <img src="https://www.englishclub.com/images/vocabulary/food/cooking/cooking.jpg" alt="Cooking">
+        <p>"Thing 3" is all about the culinary world. Cooking is the art and science of preparing delicious meals. It involves experimenting with ingredients, flavors, and techniques to create dishes that not only satisfy your taste buds but also bring joy to those you cook for. It's a delightful way to explore culture, taste, and creativity in the kitchen.</p>
+    </section>
+
+    <script>
+        // JavaScript function to show a specific "Thing" section
+        function showThing(thingNumber) {
+            // Hide all sections
+            document.querySelectorAll('section').forEach(function (section) {
+                section.style.display = 'none';
+            });
+
+            // Show the selected "Thing" section
+            document.getElementById('thing' + thingNumber).style.display = 'block';
+        }
+    </script>
+</body>
+</html>
